@@ -99,7 +99,7 @@ db_username, db_password = get_ssm_parameters()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'aws-capstone-rds',
+        'NAME': 'clarusway',
         'USER': db_username,
         'PASSWORD': db_password,
         'HOST': 'aws-capstone-rds.cxkk862sguhl.us-east-1.rds.amazonaws.com',
